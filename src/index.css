@@ -12,7 +12,6 @@ body {
   height: 100vh;
 }
 .App {
-  width: 500px;
   border-radius: 30px;
   padding: 40px;
   background-color: #fff;
@@ -97,4 +96,9 @@ body {
 }
 .App ul li:hover {
   border: 2px solid rgba(0, 0, 0, 0.3);
+}
+@media (min-width: 640px) {
+  .App {
+    width: 500px;
+  }
 }
